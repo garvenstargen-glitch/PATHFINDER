@@ -1,0 +1,52 @@
+{
+  "$schema": "https://raw.githubusercontent.com/ow-mods/owml/master/schemas/config_schema.json",
+  "enabled": true,
+  "settings": {
+    "SELECT OBJECT - KEYBOARD": {
+      "type": "selector",
+      "value": "X",
+      "options": [
+        "X",
+        "C",
+        "V",
+        "B",
+        "N",
+        "T",
+        "F",
+        "G",
+        "H",
+        "J",
+        "Q",
+        "E",
+        "R",
+        "Z",
+        "Space",
+        "Tab",
+        "LeftShift",
+        "LeftCtrl"
+      ],
+      "tooltip": "Keyboard key that selects the object you are looking at. Press it again on the same object to unselect it."
+    },
+    "SELECT OBJECT - CONTROLLER": {
+      "type": "selector",
+      "value": "X",
+      "options": [
+        "X",
+        "Y",
+        "A",
+        "B",
+        "LeftShoulder",
+        "RightShoulder",
+        "LeftStickClick",
+        "RightStickClick",
+        "Start",
+        "Select",
+        "DPadUp",
+        "DPadDown",
+        "DPadLeft",
+        "DPadRight"
+      ],
+      "tooltip": "Controller button that selects the object you are looking at. Press it again on the same object to unselect it."
+    }
+  }
+}
